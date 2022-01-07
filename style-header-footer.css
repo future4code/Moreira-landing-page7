@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: helvetica ;
+}
+
+a:visited{
+  color: #3e4546
+}
+a { color: inherit; } 
+
+
+/*conteudo header*/
+
+.container-header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #DAE5E7, white);
+  height: 70px;
+}
+
+.header-left{
+  display: flex;
+  font-weight: bold;
+  
+}
+
+.header-left a{
+  display: flex;
+  position: relative;
+  margin-right: 25px;
+  color: #48453C;
+}
+
+/*efeito menu*/
+.header-left a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #48453C;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.header-left a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*fim efeito menu*/
+
+.logo-loja img{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+.header-right img{
+  height: 30px;
+  width: 30px;
+  margin-left: 25px;
+}
+
+/*busca*/
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.site-search {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 15px;
+  width: 50%!important;
+  height: 30px;
+  color: #2E3237;
+}
+
+.btn-search {
+  width: 20px!important;
+  height: 22px;
+  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+  cursor: pointer!important;
+  border: none;
+  transform: translateY(-50%);
+  padding: 0;  
+  position: relative;
+  top: 15px;
+  left: -40px; 
+}
+/*fim busca*/
+
+.linha-horizontal{
+  display: block;
+  width: 90vw;
+  border: 1px solid #F1F1F1;
+  margin: 15px auto;
+}
+
+/*conteudo footer*/
+.footer-container{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 0.5fr;
+  gap: 20px;
+  justify-content: space-between;
+  padding:30px;
+  color: #48453C;
+  background-image: linear-gradient(to bottom,white , #DAE5E7);
+}
+
+.newsletter p{
+  padding-top:15px;
+  text-align: center
+  }
+
+  .logo-loja{
+    display:flex;
+    justify-content:center;
+
+  }
+
+.email-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.email-input input{
+  background-color: transparent;
+  border: none;
+  padding-left: 3px;
+  border-bottom: 1px solid #48453C;
+  margin-top:15px;
+  text-align:left ;
+}
+
+.button-ok{
+  height: 20px;
+  margin-top:10px;
+}
+
+
+.social-icons{
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.social-icons a{
+  margin-bottom: 15px;
+}
+
+.item-footer h3{
+  padding-bottom:10px;
+}
+
+.item-footer ul li{
+  padding-bottom:5px;
+}
