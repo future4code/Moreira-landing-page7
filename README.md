@@ -1,19 +1,20 @@
-#Landing page 4COMFORT :athletic_shoe:	
+# Landing page 4COMFORT :athletic_shoe:	
 
-##landing-page-template
+## landing-page-template
 ###### versão 1.0 Data: 07/01/2022
 
-####Surge: 
+#### Surge: 
 https://delicate-quarter.surge.sh/
 
-##Integrantes: 
+
+## Integrantes: 
 
 * CLAUDIA DE CARVALHO GONÇALVES - DEV
 * ENZO PASCHE DO CARMO - DEV
 * RODRIGO NIGOSKY - DEV
 
 
-##O que funciona:  :heavy_check_mark:
+## O que funciona:  :heavy_check_mark:
 
 * **home page**
   * responsividade
@@ -25,7 +26,7 @@ https://delicate-quarter.surge.sh/
 * **sessão sobre nós e quem somos**
 
 
-##o que não funciona: :x:
+## O que não funciona: :x:
 
 * **busca do site**
 * **login** 
@@ -35,11 +36,11 @@ https://delicate-quarter.surge.sh/
 * **sessão suporte**
 * **link para tipos de tenis nas sessões de produtos** 
 
-##Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 * **HTML**
 * **CSS**
 
-##Veja como ficou:
+## Veja como ficou:
 
 ![Home](https://images2.imgbox.com/40/7d/RUiDRgzW_o.png)
 
