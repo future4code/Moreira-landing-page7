@@ -18,12 +18,16 @@ a { color: inherit; }
 /*conteudo header*/
 
 .container-header{
+  
   display:flex;
   justify-content: space-around;
   align-items: center;
   background-image: linear-gradient(to bottom, #c1d4d8, white);
+  width: 100%;
   height: 70px;
 }
+
+
 
 .header-left{
   display: flex;
@@ -61,7 +65,7 @@ a { color: inherit; }
 }
 /*fim efeito menu*/
 
-.logo-loja img{
+.store-logo img{
   display: flex;
   height: 50px;
   justify-content: center;
@@ -77,6 +81,7 @@ a { color: inherit; }
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 .site-search {
@@ -84,7 +89,7 @@ a { color: inherit; }
   border: 1px solid rgba(255, 255, 255, .1);
   padding: 15px 50px 15px 30px;
   border-radius: 15px;
-  width: 50%!important;
+  width: 50%;
   height: 30px;
   color: #2E3237;
 }
@@ -104,7 +109,7 @@ a { color: inherit; }
 /*fim busca*/
 
 /* linha divisória */
-.linha-horizontal{
+.horizontal-line{
   display: block;
   width: 90vw;
   border: 1px solid #F1F1F1;
@@ -116,6 +121,7 @@ a { color: inherit; }
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr 0.5fr;
   gap: 20px;
+  width: 100%;
   justify-content: space-between;
   padding:30px;
   color: #48453C;
@@ -127,7 +133,7 @@ a { color: inherit; }
   text-align: center
   }
 
-  .logo-loja{
+  .store-logo{
     display:flex;
     justify-content:center;
 
@@ -154,11 +160,12 @@ a { color: inherit; }
 }
 
 .social-icons{
-  display: flex;
-  flex-direction: column;
-  height: 30px;
+height: 30px;
   width: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 80px; 
+}
+.social-icons img{
+  padding-bottom: 20px;
 }
 
 .social-icons a{
@@ -173,7 +180,54 @@ a { color: inherit; }
   padding-bottom:5px;
 }
 
+/* modo tablet */
+
+/* @media only screen  and (min-width: 768px) and (max-width: 959px) {
+
+ 
+
+} */
+
+
 /* modo mobile */
 
-@media screen and (max-device-width: 800px) {
-}
+@media only screen  and (max-width: 767px) {
+
+  .header-left{
+    display:none
+  }
+  .footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding:10px;
+    
+  }
+  .newsletter p{
+    font-size:0.9rem
+    }
+
+  .item-footer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px ;
+    margin-left: 20px;
+  }
+
+  .item-footer h3{
+    font-size: 1.1rem;
+  }
+
+  .item-footer ul li{
+    font-size: 0.85rem;
+  }
+
+  .container-social{
+    margin: 0 auto
+  }
+
+  .social-icons img{
+    padding-bottom: 5px;
+  }
+
+  }
