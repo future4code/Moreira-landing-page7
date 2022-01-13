@@ -42,7 +42,7 @@ https://delicate-quarter.surge.sh/
 
 ## Veja como ficou:
 
-![Home](https://images2.imgbox.com/40/7d/RUiDRgzW_o.png)
+![Home](https://images2.imgbox.com/89/47/TBge5W01_o.png)
 
 ![Home - Tablet](https://images2.imgbox.com/0b/f9/v0kXdNuP_o.png)
 
